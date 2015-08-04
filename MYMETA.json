@@ -4,7 +4,7 @@
       "Rob Kinyon <rob.kinyon@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "ExtUtils::MakeMaker version 6.86, CPAN::Meta::Converter version 2.120351",
+   "generated_by" : "Module::Install version 1.16, CPAN::Meta::Converter version 2.150001",
    "license" : [
       "perl_5"
    ],
@@ -15,8 +15,8 @@
    "name" : "DBIx-Class-Sims-REST",
    "no_index" : {
       "directory" : [
-         "t",
-         "inc"
+         "inc",
+         "t"
       ]
    },
    "prereqs" : {
@@ -47,5 +47,20 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.000010"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=DBIx-Class-Sims-REST"
+      },
+      "homepage" : "http://search.cpan.org/perldoc?DBIx%3A%3AClass%3A%3ASims%3A%3AREST",
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "url" : "https://github.com/robkinyon/dbix-class-sims-rest"
+      },
+      "x_IRC" : "irc://irc.perl.org/#dbix-class",
+      "x_MailingList" : "http://lists.scsys.co.uk/cgi-bin/mailman/listinfo/dbix-class"
+   },
+   "version" : "0.000010",
+   "x_module_name" : "DBIx::Class::Sims::REST"
 }

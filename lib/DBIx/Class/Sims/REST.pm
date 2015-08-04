@@ -5,7 +5,7 @@ use 5.010_000;
 use strict;
 use warnings FATAL => 'all';
 
-our $VERSION = '0.000010';
+our $VERSION = '0.000011';
 
 use DBI;
 use Hash::Merge;
@@ -201,10 +201,16 @@ In your REST API class:
 
 In a rest.cgi file (somewhere):
 
-  use My::Sims::REST;
-  use Web::Simple 'My::Sims::REST';
+  use Module::Runtime qw(use_module);
+  my $app = use_module('My::Sims::REST')->to_psgi_app;
 
-  My::Sims::REST->run_if_script;
+  use Plack::Builder;
+
+  builder {
+    # Or whatever other middleware you want.
+    enable "Runtime"; # Adds the X-Runtime header
+    $app
+  }
 
 Then later:
 
