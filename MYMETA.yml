@@ -10,9 +10,9 @@ build_requires:
   Test::Deep: '0.01'
   Test::More: '0.88'
 configure_requires:
-  ExtUtils::MakeMaker: '0'
+  ExtUtils::MakeMaker: '6.59'
 dynamic_config: 0
-generated_by: 'Module::Install version 1.16, CPAN::Meta::Converter version 2.150001'
+generated_by: 'Module::Install version 1.16, CPAN::Meta::Converter version 2.150005'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -22,6 +22,7 @@ no_index:
   directory:
     - inc
     - t
+    - xt
 requires:
   DBIx::Class::Sims: '0'
   Hash::Merge: '0'
@@ -36,5 +37,6 @@ resources:
   homepage: http://search.cpan.org/perldoc?DBIx%3A%3AClass%3A%3ASims%3A%3AREST
   license: http://dev.perl.org/licenses/
   repository: https://github.com/robkinyon/dbix-class-sims-rest
-version: '0.000010'
+version: '0.000011'
 x_module_name: DBIx::Class::Sims::REST
+x_serialization_backend: 'CPAN::Meta::YAML version 0.016'

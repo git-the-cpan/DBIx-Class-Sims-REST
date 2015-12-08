@@ -4,11 +4,11 @@ author:
   - 'Rob Kinyon <rob.kinyon@gmail.com>'
 build_requires:
   ExtUtils::MakeMaker: 6.59
-  HTTP::Request: '0.01'
-  LWP::UserAgent: '0.01'
-  Test::DBIx::Class: '0.01'
-  Test::Deep: '0.01'
-  Test::More: '0.88'
+  HTTP::Request: 0.01
+  LWP::UserAgent: 0.01
+  Test::DBIx::Class: 0.01
+  Test::Deep: 0.01
+  Test::More: 0.88
 configure_requires:
   ExtUtils::MakeMaker: 6.59
 distribution_type: module
@@ -39,4 +39,4 @@ resources:
   homepage: http://search.cpan.org/perldoc?DBIx%3A%3AClass%3A%3ASims%3A%3AREST
   license: http://dev.perl.org/licenses/
   repository: https://github.com/robkinyon/dbix-class-sims-rest
-version: '0.000011'
+version: 0.000012

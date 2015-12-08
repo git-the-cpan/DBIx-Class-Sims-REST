@@ -4,7 +4,7 @@
       "Rob Kinyon <rob.kinyon@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Module::Install version 1.16, CPAN::Meta::Converter version 2.150001",
+   "generated_by" : "Module::Install version 1.16, CPAN::Meta::Converter version 2.150005",
    "license" : [
       "perl_5"
    ],
@@ -16,7 +16,8 @@
    "no_index" : {
       "directory" : [
          "inc",
-         "t"
+         "t",
+         "xt"
       ]
    },
    "prereqs" : {
@@ -32,7 +33,7 @@
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "0"
+            "ExtUtils::MakeMaker" : "6.59"
          }
       },
       "runtime" : {
@@ -61,6 +62,7 @@
       "x_IRC" : "irc://irc.perl.org/#dbix-class",
       "x_MailingList" : "http://lists.scsys.co.uk/cgi-bin/mailman/listinfo/dbix-class"
    },
-   "version" : "0.000010",
-   "x_module_name" : "DBIx::Class::Sims::REST"
+   "version" : "0.000011",
+   "x_module_name" : "DBIx::Class::Sims::REST",
+   "x_serialization_backend" : "JSON::PP version 2.27202"
 }
